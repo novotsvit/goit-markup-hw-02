@@ -153,7 +153,7 @@ body{
 }
 
 /* button */
-.button {
+.button{
     font-family: inherit;
     font-size: 16px;
     line-height: 1.88;
@@ -184,6 +184,7 @@ body{
 }
 
 .adventages-title{
+    font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
 
@@ -238,20 +239,23 @@ body{
     overflow: hidden;
 }
 /* Portfolio navigation */
-.portfolio-nav button{
+.buttons{
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;  
     text-align: center;
-    letter-spacing: 0.03em;
     
     color: var(--title-text-color);
     background: #F5F4FA;
     border-radius: 4px;
 }
-.portfolio-nav button:hover,
-.portfolio-nav button:focus{
+.b-current {
+    color: var(--hero-color);
+    background-color: #2196F3;
+}
+.buttons:hover,
+.buttons:focus{
     background-color: #2196F3;
     color: #FFFFFF;
 }
@@ -264,13 +268,13 @@ body{
 }
 .portfolio-works h2{
     font-size: 18px;
-    line-height: 2.00;
+    line-height: 2;
     letter-spacing: 0.06em;
     
     color: var(--title-text-color);
 } 
 .portfolio-works p{
     font-size: 16px;
-    line-height: 1,88;
-    letter-spacing: 0.03em;
+    line-height: 1.88;
+    color: var(--primary-text-color);
 }
