@@ -20,11 +20,12 @@
 
 /* PAGE */
 body{
-
     color:var(--primary-text-color);
-    background-color:#2F303A;  
     font-family: Roboto, sans-serif;
+    font-size: 14px;
     letter-spacing: 0.03em;
+
+    background-color: #FFFFFF;
 }
  button{
     cursor: pointer;
@@ -58,7 +59,6 @@ body{
 /* Page navigation */
 .page-nav a{
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-decoration: none;
@@ -79,7 +79,6 @@ body{
 /* Page-contacts */
 .page-contacts a{
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
@@ -92,6 +91,9 @@ body{
 }
 
 /* footer */
+.footer{
+    background-color: #2F303A;
+}
 .footer-logo {
     font-family: Raleway, sans-serif;
     font-size: 26px;
@@ -113,7 +115,6 @@ body{
 .mail-link,
 .tel-link{
     font-style: normal;
-    font-size: 14px;
     line-height: 1.71;
     text-decoration: none;
 
@@ -121,7 +122,6 @@ body{
 }
 .location-link{
     font-style: normal;
-    font-size: 14px;
     line-height: 1.5;
     text-decoration: none;
 
@@ -138,6 +138,9 @@ body{
 /* MAIN */
 
 /* Hero */
+.hero{
+    background-color: #2F303A;;
+}
 .hero-title {
     font-weight: 900;
     font-size: 44px;
@@ -152,7 +155,6 @@ body{
 /* button */
 .button {
     font-family: inherit;
-    font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
     display: flex;
@@ -166,9 +168,9 @@ body{
 
 /* Our adventages */
 .section-adventages {
-    background-color: #E5E5E5;
+    background-color: #F5F5F5;
 }
-.adventages-title{
+.adventages{
     position: absolute;
     width: 1px;
     height: 1px;
@@ -181,17 +183,14 @@ body{
     overflow: hidden;
 }
 
-.adventages h3 {
-    font-weight: 700;
-    font-size: 14px;
+.adventages-title{
     line-height: 1.14;
     text-transform: uppercase;
 
     color: var(--title-text-color);
 }
 
-.adventages p {
-    font-size: 14px;
+.adventages-text {
     line-height: 1.71;
 }
 
@@ -199,9 +198,7 @@ body{
 .section-do {
     background-color: #E5E5E5;
 }
-
-.do-title {
-    font-weight: 700;
+.title{
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
@@ -213,22 +210,16 @@ body{
 .section-team {
     background-color: #F5F4FA;
 }
-
-.team-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-
-    color: var(--title-text-color);
-}
-
-.team h3 {
+.team-name{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
 
     color: var(--title-text-color);
+}
+.team-position{
+    font-size: 16px;
+    line-height: 1.9;
 }
 /* PORTFOLIO */
 .portfolio{
@@ -272,7 +263,6 @@ body{
     text-decoration: none;
 }
 .portfolio-works h2{
-    font-weight: 700;
     font-size: 18px;
     line-height: 2.00;
     letter-spacing: 0.06em;
